@@ -1,0 +1,17 @@
+# Abaikan Virtual Environment (WAJIB!)
+venv/
+env/
+
+# Abaikan Sampah Python
+__pycache__/
+*.pyc
+
+# Abaikan Log & Data Airflow (Biar repo gak berat)
+logs/
+plugins/
+airflow-webserver.pid
+standalone_admin_password.txt
+
+# (Opsional) Abaikan Data CSV kalau datanya rahasia/besar
+# data/processed/
+# data/error/
